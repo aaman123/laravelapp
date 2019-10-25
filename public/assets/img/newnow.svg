@@ -1,0 +1,35 @@
+<svg width="215px" height="125px" viewBox="0 0 215 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.8785895%" id="linearGradient-1">
+            <stop stop-color="#FBFF00" offset="0%"></stop>
+            <stop stop-color="#FFFB55" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="65.2957735 117 114 86.9356329 173.435712 112.354934 144 78.6582839 191.96652 86.9356329 161.673009 66.3553069 209 55 157.45065 47.616023 202.704465 30.1246544 150 34.2501157 161.673009 0 114 30.1246544 106.5 4.03001077 94.5 30.1246544 41 4.03001077 69.4799602 34.2501157 24 30.1246544 65.2957735 47.616023 0 55 65.2957735 66.3553069 18.9085584 92.866901 85.394551 78.6582839"></polygon>
+        <filter x="-3.8%" y="-3.4%" width="107.7%" height="113.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#006376" offset="0%"></stop>
+            <stop stop-color="#03D0F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="MobileHomePage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-78.000000, -72.000000)">
+            <g id="HeaderUI" transform="translate(-7.000000, -27.000000)">
+                <g id="now-2" transform="translate(88.000000, 99.000000)">
+                    <g id="now">
+                        <g id="Now">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <text id="NOW" fill-opacity="0.8" fill="url(#linearGradient-4)" fill-rule="evenodd" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold">
+                            <tspan x="85" y="62">NOW</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

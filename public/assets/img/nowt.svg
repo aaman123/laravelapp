@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="449px" height="246px" viewBox="0 0 449 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>t</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5E589" offset="0%"></stop>
+            <stop stop-color="#E8C651" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="t">
+            <g id="Group">
+                <g id="now" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <polygon id="Path" points="145.953125 107.226563 66.9492188 66.25 168.335938 74.96875 95.2421875 -1.52020044e-23 218.464844 60.6171875 237.214844 17.2382812 259.464844 60.6171875 358.925781 -1.42108547e-14 336.015625 66.25 439.46875 66.25 347.707031 99.1914062 448.777344 116.269531 358.925781 139.292969 421.839844 178.226563 324.667969 165.121094 381.832031 246 259.464844 183.914063 152.449219 246 203.585938 165.121094 53.890625 196.3125 158.253906 139.292969 0 116.269531"></polygon>
+                </g>
+                <text id="NOW" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="235" y="130">NOW</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
