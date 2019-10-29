@@ -1,11 +1,16 @@
-<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+
+
+
+<nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-yellow" id="sidenav-main">
     <div class="container-fluid">
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+
+
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Brand -->
-        <a class="navbar-brand pt-0" href="{{ route('home') }}">
+         --><!-- Brand -->
+      <!--   <a class="navbar-brand pt-0" href="{{ route('home') }}">
             <img src="https://i.postimg.cc/vH4SrdLB/logo.png" class="navbar-brand-img" alt="...">
         </a>
         <!-- User -->
@@ -47,7 +52,7 @@
                 </div>
             </li>
         </ul>
-        <!-- Collapse -->
+       -->  <!-- Collapse -->
         <div class="collapse navbar-collapse" id="sidenav-collapse-main">
             <!-- Collapse header -->
             <div class="navbar-collapse-header d-md-none">
@@ -77,14 +82,63 @@
                 </div>
             </form>
             <!-- Navigation -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Dashboard') }}
+            <ul class="navbar-nav" >
+
+                <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="media align-items-center">
+                        <span class="avatar avatar-sm rounded-circle">
+                        <img alt="Image placeholder" style="width: 50px" src="{{ asset('argon') }}/img/theme/team-1-800x800.jpg">
+                        </span>
+                        <b><p style="margin-left: 20px; font-size: 20px ; margin-top: 20px">Hello Vrushang</p></b>
+                    </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                    <div class=" dropdown-header noti-title">
+                        <h6 class="text-overflow m-0">{{ __('Welcome!') }}</h6>
+                    </div>
+                    <a href="{{ route('profile.edit') }}" class="dropdown-item">
+                        <i class="ni ni-single-02"></i>
+                        <span>{{ __('My profile') }}</span>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        <i class="ni ni-settings-gear-65"></i>
+                        <span>{{ __('Settings') }}</span>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        <i class="ni ni-calendar-grid-58"></i>
+                        <span>{{ __('Activity') }}</span>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        <i class="ni ni-support-16"></i>
+                        <span>{{ __('Support') }}</span>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="{{ route('logout') }}" class="dropdown-item" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">
+                        <i class="ni ni-user-run"></i>
+                        <span>{{ __('Logout') }}</span>
+                    </a>
+                </div>
+
+            </li>
+
+                <li class="nav-item" style="margin: 0 ; padding: 0">
+                    <a class="nav-link" style="padding: 0 ; margin-left: 20px" href="{{ route('home') }}">
+                        <img style="width: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+                        <p style="font-family: Helvetica;font-size: 20px;color: #0C0E6F;margin-left: 10px;margin-top: 10px;letter-spacing: 0;text-align: left;">$10,000</p>
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 10px;letter-spacing: 0;margin-top:30px;text-align: right;">total wins</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples">
+                    <a class="nav-link" style="padding: 0 ; margin-left: 20px" href="{{ route('home') }}">
+                        <img style="width: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+                        <p style="font-family: Helvetica;font-size: 20px;color: #0C0E6F;margin-left: 10px;margin-top: 10px;letter-spacing: 0;text-align: left;">$10,000</p>
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 10px;letter-spacing: 0;margin-top:30px;text-align: right;">total wins</p>
+                    </a>
+                    <!-- <a class="nav-link active" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples">
                         <i class="fab fa-laravel" style="color: #f4645f;"></i>
                         <span class="nav-link-text" style="color: #f4645f;">{{ __('Laravel Examples') }}</span>
                     </a>
@@ -92,25 +146,31 @@
                     <div class="collapse show" id="navbar-examples">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('profile.edit') }}">
+                                <a class="nav-link" href="purchases">
                                     {{ __('User profile') }}
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('user.index') }}">
+                                <a class="nav-link" href="{{ route('users.index') }}">
                                     {{ __('User Management') }}
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <!-- <a class="nav-link" href="#">
                         <i class="ni ni-planet text-blue"></i> {{ __('Icons') }}
+                    </a> -->
+                    <a class="nav-link" style="padding: 0 ; margin-left: 20px" href="{{ route('home') }}">
+                        <img style="width: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+                        <p style="font-family: Helvetica;font-size: 20px;color: #0C0E6F;margin-left: 10px;margin-top: 10px;letter-spacing: 0;text-align: left;">$10,000</p>
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 10px;letter-spacing: 0;margin-top:30px;text-align: right;">total wins</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">
                         <i class="ni ni-pin-3 text-orange"></i> {{ __('Maps') }}
                     </a>
@@ -130,27 +190,50 @@
                         <i class="ni ni-cloud-download-95"></i> Upgrade to PRO
                     </a>
                 </li>
-            </ul>
+            </ul> -->
             <!-- Divider -->
             <hr class="my-3">
             <!-- Heading -->
-            <h6 class="navbar-heading text-muted">Documentation</h6>
+            <h3 style="margin-left: 10px;">Recents Wins:</h3>
             <!-- Navigation -->
             <ul class="navbar-nav mb-md-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
+                    <!-- <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
                         <i class="ni ni-spaceship"></i> Getting started
+                    </a> -->
+                    <a class="nav-link" style="padding: 0 ; margin-left: 20px" href="{{ route('home') }}">
+
+                        <img style="width: 30px ; margin-left: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 20px;letter-spacing: 0;margin-top:30px;text-align: right;">amount $(won)</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
+                    <!-- <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
                         <i class="ni ni-palette"></i> Foundation
+                    </a> -->
+                    <a class="nav-link" style="padding: 0 ; margin-left: 20px" href="{{ route('home') }}">
+
+                        <img style="width: 30px ; margin-left: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 20px;letter-spacing: 0;margin-top:30px;text-align: right;">amount $(won)</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
+                    <!-- <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
                         <i class="ni ni-ui-04"></i> Components
-                    </a>
+                    </a> -->
+                    <!-- <a class="nav-link" href="{{ route('home') }}">
+
+                        <img style="width: 30px ; margin-left: 30px" src="https://cdn.pixabay.com/photo/2019/02/19/19/45/thumbs-up-4007573_960_720.png">
+
+                    <p style="font-family: Helvetica;font-size: 10px;color: #0C0E6F;margin-left: 20px;letter-spacing: 0;margin-top:30px;text-align: right;">amount $(won)</p>
+                    </a> -->
+
+                 <button type="button" style="width: 200px; margin-left: 45px" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModal" bg-gradient-blue>
+                             Recent Purchases
+                            </button>
+                <img style="margin-left: 40px; margin-top: 20px; width: 180px" src="assets/img/paypal.svg">
                 </li>
             </ul>
         </div>

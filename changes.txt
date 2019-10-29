@@ -1,0 +1,9 @@
+	modified:   resources/views/layouts/navbars/navbar.blade.php
+	modified:   resources/views/layouts/navbars/navs/auth.blade.php
+	modified:   resources/views/layouts/navbars/sidebar.blade.php
+	modified:   resources/views/profile/edit.blade.php
+	modified:   resources/views/users/edit.blade.php
+	modified:   resources/views/users/index.blade.php
+	modified:   resources/views/welcome.blade.php
+	resources/views/layouts/navbars/navs/newnavbar.blade.php
+	resources/views/profile/purchases.blade.php

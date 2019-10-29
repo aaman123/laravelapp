@@ -30,5 +30,5 @@ class webhookcontroller extends Controller
             $coinbaseWebhookCall->saveException($e);
             throw $e;
         }
-    }
+    }  
 }

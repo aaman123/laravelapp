@@ -18,6 +18,12 @@ class ProfileController extends Controller
         return view('profile.edit');
     }
 
+    // public function index() {
+    //     return view('profile.edit')
+    //             ->with('purchases' , purchases::all())
+    // }
+
+
     /**
      * Update the profile
      *

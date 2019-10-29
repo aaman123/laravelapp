@@ -13,7 +13,7 @@
                                 <h3 class="mb-0">{{ __('Users') }}</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{ route('user.create') }}" class="btn btn-sm btn-primary">{{ __('Add user') }}</a>
+                                <a href="{{ route('users.create') }}" class="btn btn-sm btn-primary">{{ __('Add user') }}</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                                 </a>
                                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                                     @if ($user->id != auth()->id())
-                                                        <form action="{{ route('user.destroy', $user) }}" method="post">
+                                                        <form action="{{ route('users.destroy', $user) }}" method="post">
                                                             @csrf
                                                             @method('delete')
                                                             

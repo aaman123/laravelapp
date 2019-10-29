@@ -1,0 +1,205 @@
+.navbar-wrapper {
+	background-image: url('/assets/img/header_bg.png'); height: 73px;
+        background-size: cover;
+}
+
+.navimg-wrapper {
+	width: 300px;
+}
+
+.navbaritem-wrapper {
+	margin-left: 600px ;
+	margin-top: 8px
+}
+
+.navbarlink-wrapper {
+	background-image: linear-gradient(180deg, #FBFF00 0%, #E7E46D 100%);
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 5px;
+	font-family: Helvetica-Bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.navbarlinkp-wrapper {
+	font-family: Helvetica-Bold;
+	font-size: 14px;
+	color: green;
+	letter-spacing: 0;
+	text-align: left;
+	margin: 0
+}
+
+.navbarlist-wrapper {
+	margin-top: 8px
+}
+
+.logoimage-wrapper {
+	width: 50px;
+}
+
+.logoimagep-wrapper {
+	margin-left: 20px;
+	 font-size: 20px ; 
+	margin-top: 20px
+}
+
+.sidebarlist-wrapper {
+	margin: 0 ; padding: 0
+}
+
+.sidebarlink-wrapper {
+	padding: 0 ;
+	margin-left: 20px
+}
+
+.sidebarimage-wrapper {
+	padding: 0 ;
+	margin-left: 20px
+}
+
+.sidebarp-wrapper {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #0C0E6F;
+	margin-left: 10px;
+	margin-top: 10px;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.sidebarp2-wrapper {
+	font-family: Helvetica;
+	font-size: 10px;
+	color: #0C0E6F;
+	margin-left: 10px;
+	letter-spacing: 0;
+	margin-top:30px;
+	text-align: right;
+}
+
+.sidebar2image-wrapper {
+	width: 30px
+}
+
+.recentwin-wrapper {
+	margin-left: 10px;
+}
+
+.recentwinlink-wrapper {
+	padding: 0 ; 
+	margin-left: 20px
+}
+
+.recentwinimage-wrapper {
+	width: 30px ; 
+	margin-left: 30px
+}
+
+.recentwinp-wrapper {
+	font-family: Helvetica;
+	font-size: 10px;
+	color: #0C0E6F;
+	margin-left: 20px;
+	letter-spacing: 0;
+	margin-top:30px;
+	text-align: right;
+}
+
+.recentwinbutton-wrapper {
+	width: 200px;
+	margin-left: 45px
+}
+
+.recentwinpaypal-wrapper {
+	margin-left: 40px; 
+	margin-top: 20px; 
+	width: 180px
+}
+
+.availableplans-wrapper {
+	margin-top: 100px ; 
+	margin-left: 100px ; 
+	font-family: Helvetica-Bold;
+	font-size: 36px;
+	color: red;
+	letter-spacing: 0;
+	text-align: left;
+}
+
+.card-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	width: 400px;		
+	margin-left: 40px;
+	display: inline-flex;
+	position: absolute;
+}
+
+.card2-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	width: 400px;
+	margin-left: 500px;
+	display: inline-flex;
+	position: absolute;
+}
+
+.card3-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	width: 400px;
+	margin-left:950px;
+	display: inline-flex;
+	position: absolute;
+}
+
+.card21-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	margin-top: 400px;
+	width: 400px;
+	margin-left: 40px;
+	display: inline-flex;
+	position: absolute;
+}
+
+.card22-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	width: 400px;
+	margin-top: 400px;
+	margin-left: 500px;
+	display: inline-flex;
+	position: absolute;
+}
+
+.card23-wrapper {
+	background-image: linear-gradient(180deg, #000000 0%, #FFFFFF 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	background-image: linear-gradient(180deg, #006376 0%, #03D0F5 100%);
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07), 0 15px 4px 0 rgba(50,50,93,0.01);
+	border-radius: 20px;
+	width: 400px;
+	margin-top: 400px;
+	margin-left:950px;
+	display: inline-flex;
+	position: absolute;
+}
